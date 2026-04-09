@@ -1,3 +1,4 @@
+-- Business analytics queries for ride-share data analysis
 -- Top neighborhoods by ride activity
 SELECT neighborhood, COUNT(*) AS ride_count
 FROM trips
